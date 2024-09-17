@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Price Prediction</title>
+</head>
+<body>
+    <h1>Enter Tweet for Stock Prediction</h1>
+    <form action="/" method="POST">
+        <label for="company">Select Company:</label>
+        <select name="company" id="company">
+            <option value="AAPL">Apple (AAPL)</option>
+            <option value="GOOGL">Google (GOOGL)</option>
+            <!-- Add more companies as needed -->
+        </select>
+        <br><br>
+        <label for="tweet">Enter Tweet:</label>
+        <input type="text" id="tweet" name="tweet" required>
+        <br><br>
+        <input type="submit" value="Predict Stock Price">
+    </form>
+</body>
+</html>
